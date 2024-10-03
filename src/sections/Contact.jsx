@@ -54,16 +54,14 @@ const Contact = () => {
 
   return (
     <section className="c-space my-20" id="contact">
-      Contact
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
+      <div className="relative min-h-screen flex items-center justify-center flex-col ">
         <img
           src="/assets/terminal.png"
           alt="terminal background"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0  min-h-[90vh] hidden lg:block"
         />
 
-        <div className="contact-container">
-          {" "}
+        <div className="contact-container  pt-10">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing
@@ -87,7 +85,7 @@ const Contact = () => {
               />
             </label>
             <label className="space-y-3">
-              <span className="field-label">FullEmail</span>
+              <span className="field-label">Full Email</span>
               <input
                 type="email"
                 name="email"
